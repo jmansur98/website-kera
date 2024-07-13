@@ -1,17 +1,3 @@
-.loading-svg path {
-    fill: #0D0E13;
-}
-
-.loading-container svg {
-    height: 7.5vw;
-    background: #E4E0DB;
-}
-
-.loading-container rect {
-    fill: #38383B;
-    transition: 2s;
-}
-
 .loading-container {
     background: #0D0E13;
     width: 100%;
@@ -22,8 +8,17 @@
     height: calc(100% + 250px);
     padding-bottom: 250px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 250px));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading-image {
+    width: 50vw; /* Ajusta según tus necesidades */
+    height: auto;
+    transition: opacity 0.9s cubic-bezier(.6, 0, 0.25, 1);
 }
 
 .loading-transition {
-    transition: .9s cubic-bezier(.6, 0, 0.25, 1);
+    transition: clip-path 0.9s cubic-bezier(.6, 0, 0.25, 1);
 }

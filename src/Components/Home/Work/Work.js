@@ -55,18 +55,18 @@ const HomeWork = () => {
     return (
         <section className="column content-width" id="work-section">
             <div className="anim">
-                <h1 ref={heading}>Work</h1>
+                <h1 ref={heading}>Cerámica</h1>
             </div>
             <div className="row">
                 <div id="block-0" className="block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src="/home/work/ali-ali-hero.webp" height="3113" alt="Ottografie" loading="lazy" />
+                    <img src="/home/work/person-hands-fingers.jpg" height="3113" alt="Ottografie" loading="lazy" />
                     <video playsInline="" loop="loop" muted="muted" disablePictureInPicture="" className="video">
-                        <source src="https://a.storyblok.com/f/133769/x/4d7b412c76/hover-ali.mp4" type="video/mp4" />
+                        <source src="/home/hands-happiness.mp4" type="video/mp4" />
                     </video>
                     <div className="text-wrapper">
                         <p>
-                            <span><strong>Ali Ali - </strong></span>
-                            <span>Unique director's portfolio</span>
+                            <span><strong>Manos Creativas -</strong></span>
+                            <span>"Donde la pasión se encuentra con la habilidad."</span>
                         </p>
                     </div>
                 </div>
@@ -75,18 +75,18 @@ const HomeWork = () => {
                         <svg viewBox="0 0 12 12" fill="#0D0E13" xmlns="http://www.w3.org/2000/svg" className="icon" data-v-669b4a84="">
                             <path d="M7.41908 4.56679L6.13722 0L4.85418 4.92566L0 6L4.85418 7.25435L6.13722 12L7.3276 7.25435L12 6L7.41908 4.56679Z"></path>
                         </svg>
-                        <span>Featured Projects</span>
+                        <span>Nosotros</span>
                     </div>
-                    <p>Highlights of cases that we<br />passionately built with forward-<br />thinking clients and friends over<br />the years.</p>
+                    <p> Creemos en la magia de transformar<br />la arcilla en obras de arte funcionales.<br />combinando técnicas tradicionales con diseños<br />modernos para crear piezas únicas y personalizadas.</p>
                     <div id="block-1" className="block" ref={image1} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <img src="/home/work/ottografie-hero.webp" />
+                        <img src="/home/work/grup-ceramic.jpeg" />
                         <video playsInline="" loop="loop" muted="muted" disablePictureInPicture="" className="video">
-                            <source src="https://a.storyblok.com/f/133769/x/a02005ba43/hover-otto.mp4" type="video/mp4" />
+                            <source src="/home/6693575-uhd.mp4" type="video/mp4" />
                         </video>
                         <div className="text-wrapper">
                             <p>
-                                <span><strong>Ottografie - </strong></span>
-                                <span>Immersive photography portfolio</span>
+                                <span><strong>Creación Colaborativa - </strong></span>
+                                <span>"Trabajando juntos para crear piezas extraordinarias."</span>
                             </p>
                         </div>
                     </div>
@@ -94,26 +94,26 @@ const HomeWork = () => {
             </div>
             <div className="row">
                 <div id="block-3" className="block" ref={image3} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src="/home/work/aebele-interiors-hero.webp" />
+                    <img src="/home/work/lathe-piece.jpeg" />
                     <video playsInline="" loop="loop" muted="muted" disablePictureInPicture="" className="video">
-                        <source src="https://a.storyblok.com/f/133769/x/6c4b3b49c3/featured-work-aebele.mp4" type="video/mp4" />
+                        <source src="home/lathe-piece.mp4" type="video/mp4" />
                     </video>
                     <div className="text-wrapper">
                         <p>
-                            <span><strong>Aebele Interiors - </strong></span>
-                            <span>Luxurious design experience</span>
+                            <span><strong>Inspiración - </strong></span>
+                            <span>"Explorando nuevas formas y texturas."</span>
                         </p>
                     </div>
                 </div>
                 <div id="block-2" className="block" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                    <img src="/home/work/rino-pelle-hero.webp" />
+                    <img src="/home/work/brush-jar.jpeg" />
                     <video playsInline="" loop="loop" muted="muted" disablePictureInPicture="" className="video">
-                        <source src="https://a.storyblok.com/f/133769/x/a183dd6f78/hover-rino.mp4" type="video/mp4" />
+                        <source src="/home/shelf-brushes.mp4" type="video/mp4" />
                     </video>
                     <div className="text-wrapper">
                         <p>
-                            <span><strong>{'Rino & Pelle - '}</strong></span>
-                            <span>Unique director's portfolio</span>
+                            <span><strong>{'Esmalte - '}</strong></span>
+                            <span>"Cada detalle cuenta en el proceso de creación.</span>
                         </p>
                     </div>
                 </div>

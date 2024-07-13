@@ -57,38 +57,38 @@ const HomeHero = () => {
             <ScrollCTA />
             <div className="content-width column">
                 <div className="hero-background loading-transition" ref={backgroundWrapper}>
-                    <img src="/home/exo-ape-hero.webp" alt="exoape hero" ref={backgroundImage} />
+                    <img src="/home/ceramic-talent-exo.jpg" alt="exoape hero" ref={backgroundImage} />
                 </div>
                 <div className="top-span-container">
                     <div className="anim">
-                        <span ref={topSpans[0]}>Intrigued by beauty, fascinated by technology</span>
+                        <span ref={topSpans[0]}>Bienvenido a Keramike Taller</span>
                     </div>
                     <div className="anim">
-                        <span ref={topSpans[1]}>and fuelled with an everlasting devotion to digital</span>
+                        <span ref={topSpans[1]}>donde cada pieza cuenta una historia única.</span>
                     </div>
                     <div className="anim">
-                        <span ref={topSpans[2]}>craftsmanship and meaningful aesthetics.</span>
+                        <span ref={topSpans[2]}>Sumérgete en el arte de la cerámica con nosotros.</span>
                     </div>
                 </div>
                 <h1>
                     <div className="hero-title-anim">
-                        <p ref={headings[0]}>Digital</p>
+                        <p ref={headings[0]}> Cerámica</p>
                     </div>
                     <div className="hero-title-anim">
-                        <p ref={headings[1]}>Design</p>
+                        <p ref={headings[1]}>Pintura </p>
                     </div>
                     <div className="hero-title-anim">
-                        <p ref={headings[2]}>Experience</p>
+                        <p ref={headings[2]}>Escultura</p>
                     </div>
 
                 </h1>
                 <span className="bottom-span">
-                    White-glove digital experiences, engaging<br />
-                    content and impactful design solutions that<br />
-                    inspire, affect and delight. We carefully wrap<br />
-                    emotionally rich aesthetics around strategic<br />
-                    concepts to deliver award-winning digital<br />
-                    design that exceeds expectations.
+                    Ofrecemos una amplia gama de servicios que <br/>
+                    incluyen clases de cerámica para todos los<br />
+                    niveles, talleres intensivos y proyectos<br />
+                    personalizados. Ya sea que busques aprender<br />
+                    un nuevo hobby o crear una pieza especial.<br />
+                    Keramike Taller es el lugar perfecto.
                 </span>
             </div>
         </div>
