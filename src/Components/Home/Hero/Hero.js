@@ -78,7 +78,7 @@ const HomeHero = () => {
                         <p ref={headings[1]}>Pintura </p>
                     </div>
                     <div className="hero-title-anim">
-                        <p ref={headings[2]}>Escultura</p>
+                        <p ref={headings[2]}>Bizcocho</p>
                     </div>
 
                 </h1>
